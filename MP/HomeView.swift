@@ -13,6 +13,7 @@ class HomeView: UIViewController {
     var tvShosws = ["game of thrones","rick and morty"]
     var anime = ["Shin Kidou Senki","naruto","Kidou Senshi Gundam"]
     var pointer = Int()
+    var i = Int()
     @IBOutlet weak var tvShowsCollection: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
